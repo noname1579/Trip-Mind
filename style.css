@@ -1,4 +1,46 @@
 *{
     box-sizing: border-box;
-    
 }
+
+body {
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+.main {
+    min-height: 800px;
+    background-image: url(images/imgBackground\ 1.png);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+.header-nav li + li {
+    margin-left: 50px;
+}
+
