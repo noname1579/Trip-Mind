@@ -1,23 +1,24 @@
 *{
+    margin: 0;
+    padding: 0;
+    border: none;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #fff;
-}
+html, body{
+    background-color: rgb(255, 255, 255);
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+    scroll-behavior: smooth;
 }
 
 .main {
-    min-height: 800px;
+    min-height: 100vh;
     background-image: url(images/imgBackground\ 1.png);
     background-size: cover;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1500px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -30,14 +31,23 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 550px;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
 }
 
 .header-nav ul {
     display: flex;
+    list-style: none;
 }
 
 .header-nav a {
+    color: white;
     text-decoration: none;
+    font-size: 22px;
 }
 
 .header-nav li + li {
