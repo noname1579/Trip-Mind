@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 html, body{
     background-color: rgb(255, 255, 255);
 
@@ -31,7 +32,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 550px;
+    padding-right: 570px;
 }
 
 .logo {
@@ -47,10 +48,57 @@ html, body{
 .header-nav a {
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .header-nav li + li {
     margin-left: 50px;
 }
 
+.main-page h2 {
+    display: flex;
+    color: white;
+    margin: 130px 110px 50px;
+    align-items: center;
+    font-size: 70px;
+    letter-spacing: 1.2px;
+    line-height: 100px;
+}
+
+.main-page p {
+    display: flex;
+    color: white;
+    margin: 10px 110px;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.buttons {
+    width: 50vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 120px;
+}
+
+.but-request {
+    text-decoration: none;
+    height: 335px;
+    width: 75px;
+}
+
+.but-video{
+    text-decoration: none;
+    height: 75px;
+    width: 75px;
+    margin-left: 330px;
+}
+
+.buttons h3 {
+    margin-left: 20px;
+    color: #C0C0C0;
+    line-height: 25px;
+    font-weight: 10;
+}
