@@ -12,6 +12,8 @@ html, body{
     scroll-behavior: smooth;
 }
 
+/* --- Header --- */ 
+
 .main {
     min-height: 100vh;
     background-image: url(images/imgBackground\ 1.png);
@@ -54,6 +56,8 @@ html, body{
 .header-nav li + li {
     margin-left: 50px;
 }
+
+/* --- Главная секция --- */ 
 
 .main-page h2 {
     display: flex;
@@ -126,3 +130,36 @@ html, body{
 .network {
     margin: 0 25px;
 }
+
+/* --- Секция 2 --- */ 
+
+.tours {
+    display: flex;
+    margin: 150px 250px;
+}
+
+.tour {
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.tour h1 {
+    font-size: 38px;
+    line-height: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tour p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 40px;
+}
+
+.tour a {
+    margin-left: 30px;
+}
+
+/* --- Форма обратной связи --- */
+
