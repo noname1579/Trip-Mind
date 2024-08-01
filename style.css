@@ -236,3 +236,33 @@ html, body{
 .comments-img {
     margin-left: 60px;
 }
+
+/* --- Футер --- */ 
+
+.footer {
+    background-color: #f7f5f5;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    padding: 60px 80px;
+}
+
+.footer-logo {
+
+}
+
+.footer-policy, .personal-information {
+    margin-left: 100px;
+    font-size: 17px;
+    color: rgb(82, 79, 79);
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-social-networks {
+    display: flex;
+    margin-left: 700px;
+}
+
+.footer-social-networks a{
+    margin-right: 50px;
+}
