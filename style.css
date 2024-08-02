@@ -16,7 +16,7 @@ html, body{
 
 .main {
     min-height: 100vh;
-    background-image: url(images/imgBackground\ 1.png);
+    background-image: url(images/imgBackground.png);
     background-size: cover;
 }
 
@@ -49,8 +49,8 @@ html, body{
 
 .header-nav a {
     color: white;
-    text-decoration: none;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .header-nav li + li {
@@ -169,7 +169,7 @@ html, body{
 /* --- Форма обратной связи --- */
 
 .form {
-    background-image: url(/images/imgForm\ 1.png);
+    background-image: url(/images/imgForm.png);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@ html, body{
     line-height: 40px;
 }
 
-.form1 {
+.form-name {
     height: 80px;
     border-radius: 40px;
     margin-bottom: 30px;
