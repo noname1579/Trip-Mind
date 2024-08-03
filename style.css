@@ -169,7 +169,7 @@ html, body{
 /* --- Форма обратной связи --- */
 
 .form {
-    background-image: url(/images/imgForm.png);
+    background-image: url(images/imgForm.png);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
