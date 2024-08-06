@@ -1,0 +1,113 @@
+@media screen and (max-width: 768px) {
+
+    .header-container {
+        padding-right: 5%;
+    }
+    .main-page h2 {
+        font-size: 50px;
+    }
+    .container-photos {
+        display: block;
+    }
+    .photos {
+        margin-left: 5%;
+        display: block;
+    }
+    .subscribe {
+        text-align: center;
+    }
+    .tours {
+        display: none;
+    }
+    .form-text {
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .comments-img {
+        display: none;
+    }
+    .comments-text {
+        text-align: center;
+    }
+    .comments-text a {
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+
+    .main-page h2 {
+        margin: 0 10px;
+        font-size: 40px;
+        letter-spacing: 0.5px;
+        line-height: 200%;
+    }
+    
+    .header-nav li {
+        display: none;
+    }
+    .main-page br {
+        display: none;
+    }
+    .main-page p {
+        margin: 15px 40px;
+    }
+    .net {
+        margin: 70px 140px;
+        
+    }
+    .but-video, .buttons h3 {
+        display: none;
+    }
+    .photos {
+        display: block;
+        text-align: center;
+    }
+    .form-text h6 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .form-place {
+        margin-top: 40px;
+    }
+    .form {
+        display: block;
+        text-align: center;
+        background-image: url();
+    }
+    .form-text p {
+        font-size: 18px;
+    } 
+    .form-name {
+        height: 70px;
+        font-size: 1.3em;
+        margin-right: 10px;
+    }
+    .footer {
+        padding: 60px 0;
+        display: block;
+    }
+    .footer-policy, .personal-information, .footer-logo {
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+    .footer-social-networks {
+        display: none;
+    }
+    .comments-text h1 {
+        font-size: 34px;
+    }
+    .comments-text p {
+        font-size: 20px;
+    }
+    .buttons{
+        margin: 0 10%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .burger {
+        display: none;
+    }
+}
