@@ -52,8 +52,9 @@
         display: none;
     }
     .main-page p {
-        margin: 15px 40px;
+        margin: 15px 40px 0;
         font-size: 17px;
+        text-align: center;
     }
     .net {
         margin: 50px 30px;
@@ -109,6 +110,10 @@
     }
     .comments {
         margin-top: 100px;
+    }
+
+    .but-request{
+        display: none;
     }
 }
 
