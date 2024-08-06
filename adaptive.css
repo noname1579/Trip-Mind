@@ -38,8 +38,9 @@
 @media screen and (max-width: 576px) {
 
     .main-page h2 {
-        margin: 0 10px;
-        font-size: 40px;
+        margin: 0 15px;
+        text-align: center;
+        font-size: 35px;
         letter-spacing: 0.5px;
         line-height: 200%;
     }
@@ -52,9 +53,10 @@
     }
     .main-page p {
         margin: 15px 40px;
+        font-size: 17px;
     }
     .net {
-        margin: 70px 140px;
+        margin: 50px 30px;
         
     }
     .but-video, .buttons h3 {
@@ -65,11 +67,12 @@
         text-align: center;
     }
     .form-text h6 {
-        font-size: 35px;
-        margin-top: 20px;
+        font-size: 28px;
+        margin-top: 30px;
     }
     .form-place {
         margin-top: 40px;
+        margin-bottom: 0;
     }
     .form {
         display: block;
@@ -77,10 +80,10 @@
         background-image: url();
     }
     .form-text p {
-        font-size: 18px;
+        font-size: 16px;
     } 
     .form-name {
-        height: 70px;
+        height: 50px;
         font-size: 1.3em;
         margin-right: 10px;
     }
@@ -96,13 +99,16 @@
         display: none;
     }
     .comments-text h1 {
-        font-size: 34px;
+        font-size: 28px;
     }
     .comments-text p {
-        font-size: 20px;
+        font-size: 16px;
     }
     .buttons{
-        margin: 0 10%;
+        margin: 0 10% 0 1%;
+    }
+    .comments {
+        margin-top: 100px;
     }
 }
 
