@@ -81,7 +81,6 @@ html, body{
 }
 
 .buttons {
-    width: 10vh;
     display: flex;
     justify-content: space-between;
     margin: 60px 120px 20px;
@@ -171,6 +170,7 @@ html, body{
 .form {
     background-image: url(images/imgForm.png);
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;

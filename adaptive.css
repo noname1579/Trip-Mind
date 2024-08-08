@@ -10,7 +10,7 @@
         display: block;
     }
     .photos {
-        margin-left: 5%;
+        margin-left: 0;
         display: block;
     }
     .subscribe {
@@ -44,7 +44,9 @@
         letter-spacing: 0.5px;
         line-height: 200%;
     }
-    
+    .form-place img {
+        height: 60px;
+    }
     .header-nav li {
         display: none;
     }
@@ -52,8 +54,9 @@
         display: none;
     }
     .main-page p {
-        margin: 15px 40px;
+        margin: 15px 40px 0;
         font-size: 17px;
+        text-align: center;
     }
     .net {
         margin: 50px 30px;
@@ -103,12 +106,27 @@
     }
     .comments-text p {
         font-size: 16px;
-    }
-    .buttons{
-        margin: 0 10% 0 1%;
+        margin: 0 3% 3%;
     }
     .comments {
         margin-top: 100px;
+    }
+    .but-request img {
+        height: 50px;
+    }
+    .container-buttons {
+        display: flex;
+        justify-content: center;
+    }
+    .buttons {
+        display: block;
+        margin: 0 0;
+    }
+    .photo {
+        padding: 0 0;
+    }
+    .comments-text img {
+        height: 55px;
     }
 }
 
