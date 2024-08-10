@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -9,13 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip&Mind</title>
+    <title>Trip and Mind</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="adaptive.css">
 </head>
 <body>
 
-<main class="main">
+<main id="main" class="main">
     <header class="header">
         <div class="container header-container">
             <div class="logo">
@@ -24,33 +25,33 @@
             <div class="header-nav">
                 <ul>
                     <a href="#!" class="burger"><img src="images/Бургер.png"></a>
-                    <li><a href="#!">Все туры</a></li>
-                    <li><a href="#!">Отзывы</a></li>
-                    <li><a href="#!">Контакты</a></li>
+                    <li><a href="#tours" class="nav-but">Все туры</a></li>
+                    <li><a href="#form" class="nav-but">Контакты</a></li>
+                    <li><a href="#comments" class="nav-but">Отзывы</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <div class="main-page">
-        <h2>Открой для себя Новую<br> Ирландию</h2>
-        <p>Авторские туры по экзотическим <br> уголкам от Ивана Иванова</p>
+        <h2>Открой для себя Новую <br> Ирландию</h2>
+        <p>Авторские туры по экзотическим уголкам</p>
     </div>
     <div class="container-buttons">
         <div class="buttons">
             <a href="#" class="but-request"><img src="images/Кнопка.png" alt="Оставить заявку"></a>
             <br>
-            <a href="#" class="but-video"><img src="images/iconPlay.png"></a>
-            <h3>Посмотрите <br> видео-отчет <br> 2018-2019</h3>
+            <a href="https://www.youtube.com/watch?v=h-sQilX4HhQ" target="_blank" class="but-video"><img src="images/iconPlay.png"></a>
+            <h3>Посмотрите видео <br> про Ирландию</h3>
         </div>
     </div>
     <div class="container-photos">
         <div class="net">
             <div class="subscribe">Подписывайтесь в соцсетях</div>
             <div class="social-networks">
-                <a href="#" class="network"><img src="images/iconYouTube.png" alt="YouTube"></a>
-                <a href="#" class="network"><img src="images/iconFB.png" alt="YouTube"></a>
-                <a href="#" class="network"><img src="images/iconTwitter.png" alt="YouTube"></a>
-                <a href="#" class="network"><img src="images/iconVK.png" alt="YouTube"></a>
+                <a href="#" class="network"><img src="images/iconYouTube.svg" alt="YouTube"></a>
+                <a href="#" class="network"><img src="images/iconFB.svg" alt="YouTube"></a>
+                <a href="#" class="network"><img src="images/iconTwitter.svg" alt="YouTube"></a>
+                <a href="#" class="network"><img src="images/iconVK.svg" alt="YouTube"></a>
             </div>
         </div>
         <div class="photos">
@@ -60,7 +61,7 @@
         </div>
     </div>
 </main>
-
+<nav class="nav-tours" id="tours"></nav>
 <section class="tours">
     <div class="tour-img">
         <img src="images/Изображение 1.png" alt="фото">
@@ -71,7 +72,7 @@
     <a href="#"><img src="images/Кнопка (1).png" alt="Смотреть все"></a>
     </div>
 </section>
-
+<nav class="nav-form" id="form"></nav>
 <section class="form">
     <div class="form-text">
         <h6>Оставьте заявку на <br> бесплатную <br> консультацию</h6>
@@ -92,7 +93,7 @@
     </div>
 </section>
 
-<section class="comments">
+<section id="comments" class="comments">
     <div class="comments-text">
         <h1>Что пишут участники <br> наших путешествий</h1>
         <p>87% участников проходят по личной <br> рекомендации от <br> друзей. А каждый 4-ый путешествует с нами <br> больше двух раз!</p>
@@ -104,17 +105,21 @@
 </section>
 <footer class="footer">
     <div class="footer-logo">
-        <img src="images/iconLogoDark.png" alt="">        
+       <a href="#main"><img src="images/iconLogoDark.png"></a>     
     </div>
     <div class="footer-policy">
+        <a href="Политика конфиденциальности.rtf">
         <h5>
             Политика <br> конфиденциальности
         </h5>
+        </a>
     </div>
     <div class="personal-information">
+        <a href="Согласие на обработку персональных данных.rtf">
         <h5>
         Соглашение на обработку <br> персональных данных
         </h5>
+        </a>
     </div>
     <div class="footer-social-networks">
         <a href="#" class="network"><img src="images/iconYouTube_dark.png" alt="YouTube"></a>
