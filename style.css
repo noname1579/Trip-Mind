@@ -111,7 +111,7 @@ html, body{
     text-decoration: none;
 }
 
-.but-request:hover {
+.but-anim:hover {
     filter: brightness(80%);
 }
 
@@ -176,6 +176,12 @@ html, body{
 
 .nav-tours {
     margin-bottom: 130px;
+}
+.img-anim img{
+    transition: 0.8s;
+}
+.img-anim img:hover {
+    transform: scale(1.06);
 }
 
 .tours {
@@ -253,6 +259,10 @@ html, body{
     margin-top: 130px;
     margin-bottom: 100px;
 }   
+
+.form-place button {
+    cursor: pointer;
+}
 
 /* --- Секция 3 --- */ 
 

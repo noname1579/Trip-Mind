@@ -38,9 +38,9 @@
 @media screen and (max-width: 576px) {
 
     .main-page h2 {
-        margin: 0 15px;
+        margin: 120px 15px;
         text-align: center;
-        font-size: 35px;
+        font-size: 36px;
         letter-spacing: 0.5px;
         line-height: 200%;
     }
@@ -54,13 +54,13 @@
         display: none;
     }
     .main-page p {
-        margin: 15px 40px 0;
-        font-size: 17px;
+        margin-top: 120px;
+        font-size: 19px;
         text-align: center;
+        margin: 150px 50px;
     }
     .net {
-        margin: 50px 30px;
-        
+        margin: 50px 10px;
     }
     .but-video, .buttons h3 {
         display: none;
@@ -128,10 +128,20 @@
     .comments-text img {
         height: 55px;
     }
+    .nav-form {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 1500px) {
+
+@media (min-width: 576px) and (max-width: 2000px){
     .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 728px) {
+    .but-video, .buttons h3 {
         display: none;
     }
 }
